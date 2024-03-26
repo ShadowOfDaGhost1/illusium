@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Display:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>NotNFT</title>
+</head>
+<body>      
+
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <a href="main.html">
+                    <img src="assets/images/logo.svg" alt="logo"
+                    width="300">
+                </a>
+            </div>
+            <div class="connect-wallet">
+                <a href="#" class="cwbutton">
+                <script src="cwbutton.js"></script>
+                Connect Wallet
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <main> 
+        <div class="welcome">
+                
+        </div>
+        <div class="nfts-main">
+            <ul class="two-rows">
+                <li><a href="/assets/plate.html">
+                    <img src="assets/images/Plate_nft.svg" alt="Plate NFT" 
+                    width="350px"
+                    height="350px">
+                    </a>
+                </li>
+                <li><a href="/assets/robot.html">
+                    <img src="assets/images/Robot_nft.svg" alt="Robot NFT"
+                    width="350px"
+                    height="350px">
+                    </a>
+                </li>
+                <li><a href="/assets/krest.html">
+                    <img src="assets/images/Krest_nft.svg" alt="Krest NFT"
+                    width="350px"
+                    height="350px">
+                    </a>
+                </li>
+                <li><a href="/assets/tutan.html">
+                    <img src="assets/images/Tutan_nft.svg" alt="Tutan NFT"
+                    width="350px"
+                    height="350px">
+                    </a>
+                </li>
+                <li><a href="/assets/anubis.html">
+                    <img src="assets/images/Anubis_nft.svg" alt="Anubis NFT"
+                    width="350px"
+                    height="350px">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </main>
+
+    <footer>
+        <hr size="3" 
+        color="orange"> <!-- Горизонтальная линия -->
+
+        <div class="socialki">
+            <a href="https://www.discord.com/YourPageName">
+                <img src="/assets/images/discord.svg" alt="discord"
+                width="50">
+            </a>
+            <a href="https://twitter.com/YourTwitterHandle">
+                <img src="/assets/images/twitter.svg" alt="twitter"
+                width="50">
+            </a>
+        </div>
+
+    </footer>
+
+
+
+</body>
+</html>
+
+<script>
+    ReactDOM.render(
+    React.createElement(connectwallet, null),
+    document.getElementById('root')
+    );
+</script>
